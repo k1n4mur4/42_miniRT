@@ -6,7 +6,7 @@
 /*   By: kinamura <kinamura@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 13:45:34 by kinamura          #+#    #+#             */
-/*   Updated: 2025/07/20 16:10:44 by kinamura         ###   ########.fr       */
+/*   Updated: 2025/08/06 00:49:00 by kinamura         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 # include <fcntl.h>
 # include <stdio.h>
 # include "get_next_line.h"
+# include "ft_printf.h"
 
 # define SUFFIX_TEMP	"XXXXXX"
 
