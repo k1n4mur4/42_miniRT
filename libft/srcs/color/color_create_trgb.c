@@ -1,20 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_abs.c                                           :+:      :+:    :+:   */
+/*   color_create_trgb.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kinamura <kinamura@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/10 12:05:29 by kinamura          #+#    #+#             */
-/*   Updated: 2025/12/27 17:49:55 by kinamura         ###   ########.fr       */
+/*   Created: 2025/12/29 16:33:34 by kinamura          #+#    #+#             */
+/*   Updated: 2025/12/29 16:35:08 by kinamura         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_math.h"
+#include "color.h"
 
-int	ft_abs(int i)
+int	color_create_trgb(int t, int r, int g, int b)
 {
-	if (i < 0)
-		return (-i);
-	return (i);
+	return (t << 24 | r << 16 | g << 8 | b);
 }
